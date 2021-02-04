@@ -1,0 +1,4 @@
+C:\Users\Edison\source\repos\EdisonMolinaPrueba\EdisonMolinaPrueba\obj\Debug\netcoreapp3.1\EdisonMolinaPrueba.csprojAssemblyReference.cache
+C:\Users\Edison\source\repos\EdisonMolinaPrueba\EdisonMolinaPrueba\obj\Debug\netcoreapp3.1\EdisonMolinaPrueba.AssemblyInfoInputs.cache
+C:\Users\Edison\source\repos\EdisonMolinaPrueba\EdisonMolinaPrueba\obj\Debug\netcoreapp3.1\EdisonMolinaPrueba.AssemblyInfo.cs
+C:\Users\Edison\source\repos\EdisonMolinaPrueba\EdisonMolinaPrueba\obj\Debug\netcoreapp3.1\EdisonMolinaPrueba.csproj.CoreCompileInputs.cache
