@@ -50,18 +50,18 @@ namespace EdisonMolinaPrueba
             piso12.Start();
 
 
-            piso1.Join();
-            piso2.Join();
-            piso3.Join();
-            piso4.Join();
-            piso5.Join();
-            piso6.Join();
-            piso7.Join();
-            piso8.Join();
-            piso9.Join();
-            piso10.Join();
-            piso11.Join();
-            piso12.Join();
+            Piso1.Join();
+            Piso2.Join();
+            Piso3.Join();
+            Piso4.Join();
+            Piso5.Join();
+            Piso6.Join();
+            Piso7.Join();
+            Piso8.Join();
+            Piso9.Join();
+            Piso10.Join();
+            Piso11.Join();
+            Piso12.Join();
 
         }
         public static void NumeroDePersonas()
