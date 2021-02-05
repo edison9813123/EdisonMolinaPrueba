@@ -80,22 +80,31 @@ namespace EdisonMolinaPrueba
         }
         public static void NumeroDePersonas()
         {
-            var Apartamento = 0;
-
             for (int i = 0; i <= 12; i++)
-            {
-                var guia = Guia.NewGuid();
-                var nummeros = new String(guid.ToString().Where(Char.IsDigit).ToArray());
+          
                 var randomApartamento = new Random();
-                if (Apartamento <= 8)
-                {
-                    Apartamento ++;
-                }
+            
+                if (piso1 < 1 || piso > 12)
+           Console.WriteLine("Solo 1 al 12 o q para salir");
+           return;
+        if (piso1 - _actual < 0 && _actual > 1)
+            bajar(Thread.CurrentThread);
+        else if (piso1 - _actual > 0 && _actual < pisofinal)
+            subir(Thread.CurrentThread);
+        else
+            Stop(piso);
+               
                 var random = new Random();
                 var value = random.Next(0, 12);
 
-                Console.WriteLine($"Piso {i} - Apartamentos {Apartamento} - cantidad de personas dentro del edificio {value}");
-            }
+                private void Stop(int piso)
+    {
+        private void Stop(int piso)
+    {
+        actual = piso;
+        Console.WriteLine("Estamos en el piso {0} numero de personas {1}", piso);
+    }
+            
         }
     }
 }
